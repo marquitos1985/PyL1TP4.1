@@ -15,11 +15,11 @@ void ordenarArreglo(int validos, int arreglo[], char arregloChar[]);
 
 
 int main() {
+    printf("\nTP 4.1 EJERCICIO 16\n");
     int largoString = 12;
     char arregloLetras[CANT_CANDIDATOS] = {'A', 'B', 'C', 'D'};
     char cabecera[5][12] = {"Distrito", "Candidato A", "Candidato B", "Candidato C", "Candidato D"};
     int distritos[DISTRITOS] = {1, 2, 3, 4, 5};
-    //int votosCandidatos[CANT_CANDIDATOS][VALIDOS_DATOS] = {{194,180,221,432,820}, {48,20,90,51,61}, {206,320,140,821,946}, {45,16,20,14,18}};
     int votosCandidatos[CANT_CANDIDATOS][VALIDOS_DATOS] = {{194,180,221,432,820}, {48,20,90,51,61}, {206,320,14,821,110}, {45,16,20,14,18}};
     int votosTotalesCandidatos[CANT_CANDIDATOS];
     float porcentajeVotosTotalesCandidatos[CANT_CANDIDATOS];
