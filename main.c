@@ -15,8 +15,14 @@ void ordenarArreglo(int validos, int arreglo[], char arregloChar[]);
 
 
 int main() {
+
+    printf("\nNumero random %d", rand()%100);
+<<<<<<< HEAD
     printf("\nTP 4.1 EJERCICIO 16\n");
     printf("\nPor Marcos Carrizo");
+=======
+    printf("\nMARCOS CARRIZO")
+>>>>>>> rama1
     int largoString = 12;
     char arregloLetras[CANT_CANDIDATOS] = {'A', 'B', 'C', 'D'};
     char cabecera[5][12] = {"Distrito", "Candidato A", "Candidato B", "Candidato C", "Candidato D"};
